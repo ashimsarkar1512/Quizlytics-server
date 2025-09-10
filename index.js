@@ -14,7 +14,8 @@ const genAI = new GoogleGenerativeAI(process.env.AI_API_KEY)
 app.use(cors({
     origin: [
       'https://quizlytics.vercel.app',
-      'http://localhost:3000'
+      'http://localhost:3000',
+      
     ],
   }));
   app.use(express.json());
