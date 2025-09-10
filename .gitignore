@@ -1,15 +1,16 @@
 # Ignore settings.json
 settings.json
-.vscode/settings.json
 
 # Environment files
 .env
 
 # Logs
+temp_auto_push.bat
 *.log
 
 # Dependencies
 node_modules/
 
 # Vercel
-.vercel
+.vercel.gitignore
+temp_interactive_push.bat
